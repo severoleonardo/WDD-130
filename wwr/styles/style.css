@@ -32,7 +32,6 @@
     width: 100%;
 }
 
-
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -92,6 +91,7 @@ body {
     box-sizing: border-box;
 }
 
+/* Create Account Page */
 .bg-img {
     background-image: url(https://byui-wdd.github.io/wdd130/resources/images/rafting11_1024.jpg);
     min-height: 380px;
@@ -166,6 +166,8 @@ input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, inp
 .btn:hover {
     opacity: 1;
 }
+/* Create Account Page */
+
 
 h2 {
     margin: 0;
@@ -292,7 +294,9 @@ main section img {
     padding-bottom: 15px;
 }
 
-footer {
+
+/* Global footer */
+footer { 
     background-color: #364958;
     color: #fcfbfb;
     padding: 25px 50px;
