@@ -2,30 +2,118 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Website | Work</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
    <div id="content">
     <header>
-        <a id="logo" href="index.html">
-            <img class="logo" src="#" alt="My Logo">
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="images/Site images/laptop.png" alt="My Logo">
         </a>
-        <nav>
-            <a href="index.html">About</a>
+        <nav class="nav">
+            <a  href="index.html">About</a>
             <a href="study.html">Study</a>
-            <a href="work.html">Work</a>
-            <a href="site-plan.html">Site Plan</a>
-            <a href="#">Download CV</a>
+            <a class="active" href="work.html">Work</a>
+            <a  href="#">Download CV</a>
         </nav>
     </header>
     <div id="hero">
         <div id="hero-box">
+            <img id="hero-img" src="images/Site images/profile5.png" alt="About Me">
             <h1 id="work-intro">A little bit about how I solve problems</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p> -->
         </div>
-    <main class="experience">
-        <h2>EXPERIENCE</h2>
+        <section id="hero-msg">
+            <h1 class="home-title"></h1>
+            <p>I am a father, husband, <br> software analyst,<br>professional developer,<br>and passionate to studying.</p>
+            <div class="button-box">
+                <a class="book" href="aboutme.html">Experience</a>
+            </div>
+        </section>
+    </div>
+    <section class="technologies">
+        <h2>SOME TECHNOLOGIES I'VE WORKED WITH:</h2>
+        <div class="icons">
+            <img class="html-icon" src="images/Site images/instagram.png" alt="html-icon">
+            <img class="css-icon" src="images/Site images/instagram.png" alt="css-icon">
+            <img class="javascript-icon" src="images/Site images/instagram.png" alt="javascript-icon">
+            <img class="bootstrap-icon" src="images/Site images/instagram.png" alt="bootstrap-icon">
+            <img class="angular-icon" src="#" alt="angular-icon">
+            <img class="python-icon" src="#" alt="python-icon">
+            <img class="ssms-icon" src="#" alt="ssms-icon">
+            <img class="mysql-icon" src="#" alt="mysql-icon">
+            <img class="git-icon" src="#" alt="git-icon">
+            <img class="vscode-icon" src="#" alt="vscode-icon">
+            <img class="github-icon" src="#" alt="github-icon">
+            <img class="postman-icon" src="#" alt="postman-icon">
+            <img class="swagger-icon" src="#" alt="swagger-icon">
+            <img class="json-icon" src="#" alt="json-icon">
+            <img class="jira-icon" src="#" alt="jira-icon">
+            <img class="confluence-icon" src="#" alt="confluence-icon">
+            <img class="figma-icon" src="#" alt="figma-icon">
+            <img class="miro-icon" src="#" alt="miro-icon">
+            <img class="powerbi-icon" src="#" alt="powerbi-icon">
+            <img class="notion-icon" src="#" alt="notion-icon">
+        </div>    
+    </section>
+
+    <section class="jobs">
+        <h2> WHERE I'VE WORKED</h2>
+
+        <div class="job">
+            <img src="empresa1-logo.png" alt="Logo Empresa 1">
+            <h3>Empresa 1 (Nome Fantasia)</h3>
+            <p class="job-date">Data de Trabalho: 2018-2020</p>
+            <p class="job-description">Descreva suas funções e realizações durante o período que trabalhou na Empresa 1.</p>
+        </div>
+
+        <div class="job">
+            <img src="empresa2-logo.png" alt="Logo Empresa 2">
+            <h3>Empresa 2 (Nome Fantasia)</h3>
+            <p class="job-date">Data de Trabalho: 2020-2022</p>
+            <p class="job-description">Descreva suas funções e realizações durante o período que trabalhou na Empresa 2.</p>
+        </div>
+
+        <div class="job">
+            <img src="empresa3-logo.png" alt="Logo Empresa 3">
+            <h3>Empresa 3 (Nome Fantasia)</h3>
+            <p class="job-date">Data de Trabalho: 2022-2023</p>
+            <p class="job-description">Descreva suas funções e realizações durante o período que trabalhou na Empresa 3.</p>
+        </div>
+
+    </section>
+    <main class="home-grid">
+        <h1>EXPERIENCE</h1>
+        <p>Aqui está um breve resumo das minhas experiências profissionais.</p>
+
+        <section class="rivers-card">
+            <img class="card-img" src="images/Site images/info.png" alt="river in forest">
+            <img class="icon" src="images/Site images/find-avatar.png" alt="river icon">
+            <h2>About me</h2>
+        </section>
+        <section class="camping-card">
+            <img class="card-img" src="images/Site images/study.png" alt="tent in mountains">
+            <img class="icon" src="images/Site images/online-study.png" alt="river icon">
+            <h2>How I study</h2>
+        </section>
+        <section class="rapids-card">
+            <img class="card-img" src="images/Site images/work4.png" alt="rafting boat">
+            <img class="icon" src="images/Site images/briefcase.png" alt="river icon">
+            <h2>How I work</h2>
+        </section>
+        <div id="background"></div>
+        <img class="mountains" src="images/Site images/work3.png" alt="Misty mountains">
+        <section class="msg">
+            <h2>Click here to know more about <br>my professional experiences</h2>
+            <p>I bring a holistic engineering perspective and creative problem-solving approach to creating products and experiences that connect people and businesses. Communication, empathy, curiosity, and fast learning are my strongest qualities. With a background in Systems Analysis and Development, Google UX Design certification, and studying towards a BS in Software Development, I am competent in all aspects of the design process and product lifecycle.</p>
+            <a class="join" href="work.html">Experience</a>
+        </section>
+    </main>
+    <!-- <main class="study-grid">
+        <h1>EXPERIENCE</h1>
         <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</P>
         <section class="tools">
             <h2>SOME TECHNOLOGIES I'VE WORKED WITH:</h2>
@@ -87,22 +175,22 @@
                 <a class="contact" href="mailto:2020.leonardosevero@gmail.com?subject=Hi there from your website">Say Hello</a>
             </section>
         </div>
-    </main>
+    </main> -->
     <footer>
-        <p>© 2023 Leonardo Severo</p>
+        <p>My Portfolio &copy; 2023 - Leonardo Severo</p>
         <p><a href="site-plan.html">Site Plan</a></p>
         <div class="social">
             <a href="https://github.com/severoleonardo" target="_blank">
-                <img src="#" alt="github icon">
+                <img src="images/Site images/github.png" alt="github icon">
             </a>
             <a href="https://www.linkedin.com/in/severoleonardo/" target="_blank">
-                <img src="#" alt="linkedin icon">
+                <img src="images/Site images/linkedin.png" alt="linkedin icon">
             </a>
             <a href="https://www.instagram.com/severoreves_/" target="_blank">
-                <img src="#" alt="instagram icon">
+                <img src="images/Site images/instagram.png" alt="instagram icon">
             </a>
             <a href="https://www.twitch.tv/severoreves" target="_blank">
-                <img src="#" alt="twitch icon">
+                <img src="images/Site images/twitch.png" alt="twitch icon">
             </a>
         </div>
     </footer>

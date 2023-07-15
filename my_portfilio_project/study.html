@@ -2,78 +2,86 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Website | Study</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
    <div id="content">
     <header>
-        <a id="logo" href="index.html">
-            <img class="logo" src="#" alt="My Logo">
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="images/Site images/laptop.png"  alt="Dry Oar"> 
         </a>
-        <nav>
+        <nav class="nav">
             <a href="index.html">About</a>
-            <a href="study.html">Study</a>
+            <a class="active" href="study.html">Study</a>
             <a href="work.html">Work</a>
-            <a href="site-plan.html">Site Plan</a>
             <a href="#">Download CV</a>
         </nav>
     </header>
     <div id="hero">
         <div id="hero-box">
-            <h1 id="study-intro">A little bit about how my brain works while studying</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+            <img id="hero-img" src="images/Site images/hero-study3.png" alt="About Me">
         </div>
-    <main class="3d-study">
-        <h2>MY 3D STUDY</h2>
-        <section class="design-card">
-            <img class="design-icon" src="#" alt="design icon">
+        <section id="hero-msg">
+            <h1 class="home-title"></h1>
+            <p>I am a father, husband, <br> software analyst,<br>professional developer,<br>and passionate to studying.</p>
+            <div class="button-box">
+                <a class="book" href="aboutme.html">Experience</a>
+            </div>
+        </section>
+    </div>
+    <main class="study-grid">
+        <h1>MY 3D STUDY</h1>
+        <section class="rivers-card">
+            <img class="card-img" src="images/Site images/design.png" alt="design illustration">
+            <img class="icon" src="images/Site images/design-icon.png" alt="design icon">
             <h2>DESIGN</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
         </section>
-        <section class="development-card">
-            <img class="development-icon" src="#" alt="development icon">
+        <section class="camping-card">
+            <img class="card-img" src="images/Site images/developement.png" alt="development illustration">
+            <img class="icon" src="images/Site images/development-icon2.png" alt="development icon">
             <h2>DEVELOPMENT</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
         </section>
-        <section class="data-card">
-            <img class="data-icon" src="#" alt="data icon">
+        <section class="rapids-card">
+            <img class="card-img" src="images/Site images/data.png" alt="data illustration">
+            <img class="icon" src="images/Site images/data-icon2.png" alt="data icon">
             <h2>DATA</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
         </section>
-        <div id="timeline">
-            <section class="education">
-                <h2>MY WAY TO GET HERE</h2>
-                <h3>year XXXX</h3>
-                <h4>course name</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                <h3>year XXXX</h3>
-                <h4>course name</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                <h3>year XXXX</h3>
-                <h4>course name</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                <h3>year XXXX</h3>
-                <h4>course name</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-            </section>
-        </div>
+        <div id="background"></div>
+        <img class="mountains" src="images/Site images/study2.png" alt="Misty mountains">
+        <section class="msg">
+            <h2>MY WAY TO GET HERE</h2>
+                    <h3>Dec 2011</h3>
+                    <h4>Business Administration Technician</h4>
+                    <p>This course in Business Administration gave me comprehensive knowledge in areas such as people management, finance, marketing, labor law, logistics, business English, institutional psychology, seminar presentation, human resources, business administration, and accounting. Preparing to play support or management roles in organizations.</p>
+                    <h3>Mar 2023</h3>
+                    <h4>Analysis and Systems Development</h4>
+                    <p>In this degree, I developed knowledge and skills that allow me to analyze, design, document, specify, test, implement and evolve information systems.</p>
+                    <h3>Apr 2023</h3>
+                    <h4>BYU-Pathway Connect</h4>
+                    <p>Operated by BYU-Pathway Worldwide, PathwayConnect is the recommended start to every degree. This one-year course allowed me to start a bachelor's degree in Applied Technology at a North American university.</p>
+                    <h3>Apr 2023 - Present</h3>
+                    <h4>Bachelor's of Software Development</h4>
+                    <p>After completing the BYU PathwayConnect certificate, I began my pursuit of Associate, and after achieving this certificate, I will continue to study until I earn a Bachelor's of Science degree in software development. This degree qualifies me for an international career in software and web development, information technology, cybersecurity, wearable technology, systems and database administration, project management and much more.</p>
+        </section>
     </main>
     <footer>
-        <p>© 2023 Leonardo Severo</p>
+        <p>My Portfolio &copy; 2023 - Leonardo Severo</p>
         <p><a href="site-plan.html">Site Plan</a></p>
         <div class="social">
             <a href="https://github.com/severoleonardo" target="_blank">
-                <img src="#" alt="github icon">
+                <img src="images/Site images/github.png" alt="github icon">
             </a>
             <a href="https://www.linkedin.com/in/severoleonardo/" target="_blank">
-                <img src="#" alt="linkedin icon">
+                <img src="images/Site images/linkedin.png" alt="linkedin icon">
             </a>
             <a href="https://www.instagram.com/severoreves_/" target="_blank">
-                <img src="#" alt="instagram icon">
+                <img src="images/Site images/instagram.png" alt="instagram icon">
             </a>
             <a href="https://www.twitch.tv/severoreves" target="_blank">
-                <img src="#" alt="twitch icon">
+                <img src="images/Site images/twitch.png" alt="twitch icon">
             </a>
         </div>
     </footer>
