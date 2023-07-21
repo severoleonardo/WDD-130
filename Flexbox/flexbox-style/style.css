@@ -1,0 +1,96 @@
+/* Reseta os estilos */
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilo dos itens de texto do menu */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* CSS Flexbox 1 */
+h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+/* imagens aumentam no máximo a 100% do tamanho do container */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Estilo e disposição dos itens do menu */
+.header {
+    background: #1d1e20;
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Coloca e alinha os links do menu lado a lado */
+.menu {
+    display: flex;
+}
+
+/* Define a margem entre os links do menu */
+.menu li {
+    margin-left: 10px;
+}
+
+/* Define a área de clique do link(botão) */
+.menu li a {
+    display: block;
+    padding: 10px;
+    /* background: tomato;  */
+    border-style:dashed;
+    border-color: #363a41;
+}
+
+/* CSS Flexbox 1 */
+
+
+/* dosponibiliza os itens da seção lado a lado */
+.flex {
+    display: flex;
+    flex-wrap: wrap; 
+    max-width: 800px; /* limita a largura do container*/
+    margin: 0 auto; /* alinha ao centro após passar de 800px*/
+}
+
+/* Permite que haja quebra automática das linhas/itens */
+.flex > div {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+/* CSS GRID 1 */
+
+
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-columns: repeat(3, 1fr); Mesma função da linha de cima */
+    max-width: 780px;
+    margin: 0 auto;
+    grid-gap: 20px;
+}
+
+/* Seleciona os itens individualmente do grid */
+.grid1 > div:nth-child( n + 4) {
+    /* background: blue; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    align-items: center;
+}
