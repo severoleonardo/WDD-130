@@ -41,10 +41,6 @@
     margin: 20px;
 }
 
-.container-icon img {   
-
-}
-
 .workingclass-hero job {
     background-color: #E6DFD9;
 }
@@ -111,6 +107,7 @@ nav a {
     text-decoration: none;
     padding: 35px;
 }
+
 
 
 nav a:hover {
